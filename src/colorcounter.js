@@ -27,7 +27,7 @@ class ColorCounter extends Component {
   render() {
     let {counter, colors} = this.state
     let styles = {
-      margin: '30px',
+      margin: '20px',
       width: '200px',
       height: '200px',
       backgroundColor: colors[counter].code,

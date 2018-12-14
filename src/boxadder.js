@@ -7,7 +7,7 @@ class BoxAdder extends Component {
   constructor(props){
     super(props)
     this.state = {
-      boxArray :[<ColorCounter/>]
+      boxArray :[<ColorCounter/>,<ColorCounter/>,<ColorCounter/>]
     }
   }
 
@@ -25,25 +25,19 @@ class BoxAdder extends Component {
     this.setState({boxArray: boxArray})
   }
 
-
   render(){
 
 
     return (
       <div>
-
       <div className="counterApp">
       {this.state.boxArray}
       </div>
-      
-      <div className="btnToolbar Buttons">
-      <Button color="primary" size="sm" onClick={this.addBox.bind(this)}>Add</Button>{' '}
-      <Button color="danger" size="sm" onClick={this.removeBox.bind(this)}>Remove</Button>{' '}
+      <div className="btnToolbar Buttons" id="Buts">
+      <Button color="primary" onClick={this.addBox.bind(this)}>+</Button>{' '}
+      <Button color="danger"  onClick={this.removeBox.bind(this)}>-</Button>{' '}
       </div>
       </div>
-
-
-
       )
     }
 

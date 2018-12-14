@@ -33,7 +33,9 @@ font-family: 'Titillium Web', sans-serif;
 
 .Buttons{
 text-align: center;
-
+user-select: none;
+user-select: none; /* Standard syntax */
+display:none;
 }
 
 .App-logo {
