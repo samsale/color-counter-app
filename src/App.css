@@ -1,5 +1,39 @@
-.App {
-  text-align: center;
+@import url('<link href="https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.App{
+  /* border-style: solid;
+  border-width: 1px;
+  width: 600px;
+  height: 400px;
+  display:flex;
+  flex-wrap: wrap; */
+
+}
+.Header{
+/* display: flex; */
+  /* justify-content: center; */
+/* width: 100px; */
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.counterApp {
+  display: flex;
+  justify-content: center;
+  /* background-color: #282c34; */
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* .Box{
+  width: 300px;
+  border: 25px black;
+} */
+
+.Buttons{
+text-align: center;
+
 }
 
 .App-logo {
